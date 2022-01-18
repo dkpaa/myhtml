@@ -1,0 +1,411 @@
+ /* -----幻燈片----- */
+    
+ .slideshow{
+    max-width: 100%;
+    margin: auto;
+}
+.slideshow img{
+    width: 100%;
+}
+
+/* -----幻燈片----- */
+
+/* -----客房介紹----- */
+
+.roomtxt{
+    font-size: 24px;
+    text-align: center;
+}
+.roomtxt .txt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.roomtxt .txt a{
+    text-decoration: none;
+    color: black;
+}
+.room{
+    max-width: calc(1200px - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.room_item{
+    margin: 10px;
+    width: 100%;
+    background-color: #dec6ba;
+    text-align: center;
+    font-size: 20px;
+    color: #944b1f;
+}
+.room_item img{
+    width: 100%;
+}
+/* -----客房介紹----- */
+
+/* -----地理位置----- */
+
+.maptxt{
+    font-size: 24px;
+    text-align: center;
+}
+.maptxt .txt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.maptxt .txt a{
+    text-decoration: none;
+    color: black;
+}
+.map{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.mapimg{
+    margin: 10px;
+    width: 100%;
+}
+.mapimg img{
+    width: 100%;
+}
+.mapinfo{
+    margin: 10px;
+    margin-left: 54px;
+    color: #944b1f;
+    font-size: 28px;
+}
+
+/* -----地理位置----- */
+
+/* -----民宿環境照片----- */
+.surround{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.surroundimg{
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.surroundimg .img_item img{
+    width: 100%;
+}
+.surroundimg .img_item{
+    width: 100%;
+    text-align: center;
+    color: #944b1f;
+    font-size: 20px;
+}
+.img_item:nth-child(2n) .pic{
+    height: 100%;
+}
+
+/* -----民宿環境照片----- */
+
+/* -----民宿貓咪照片----- */
+.cat{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.catimg{
+    max-width: 1200px;  
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.catimg_item .pic img{
+    width: 100%;
+    font-size: 0;
+}
+.catimg_item{
+    width: 100%;
+    font-size: 20px;
+    color: #944b1f;
+    text-align: center;
+}
+
+/* -----民宿貓咪照片----- */
+@media screen and (min-width: 768px) {
+    /* -----幻燈片----- */
+    
+    .slideshow{
+        max-width: 768px;
+        margin: auto;
+    }
+    .slideshow img{
+        width: 100%;
+    }
+    
+    /* -----幻燈片----- */
+    
+    /* -----客房介紹----- */
+    
+    .roomtxt{
+        font-size: 24px;
+        text-align: center;
+    }
+    .roomtxt .txt {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .roomtxt .txt a{
+        text-decoration: none;
+        color: black;
+    }
+    .room{
+        max-width: calc(1200px - 60px);
+        display: flex;
+        margin: auto;
+    }
+    .room_item{
+        margin: 10px;
+        width: 33.33333%;
+        background-color: #dec6ba;
+        text-align: center;
+        font-size: 20px;
+        color: #944b1f;
+    }
+    .room_item img{
+        width: 100%;
+    }
+    /* -----客房介紹----- */
+    
+    /* -----地理位置----- */
+    
+    .maptxt{
+        font-size: 24px;
+        text-align: center;
+    }
+    .maptxt .txt{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .maptxt .txt a{
+        text-decoration: none;
+        color: black;
+    }
+    .map{
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .mapimg{
+        margin: 10px;
+        width: 100%;
+    }
+    .mapimg img{
+        width: 100%;
+    }
+    .mapinfo{
+        margin: 10px;
+        margin-left: 54px;
+        color: #944b1f;
+        font-size: 28px;
+    }
+    
+    /* -----地理位置----- */
+    
+    /* -----民宿環境照片----- */
+    .surround{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .surroundimg{
+        max-width: 768px;
+        display: flex;
+        margin: auto;
+    }
+    .surroundimg .img_item img{
+        width: 100%;
+    }
+    .surroundimg .img_item{
+        width: 33.33333%;
+        text-align: center;
+        color: #944b1f;
+        font-size: 20px;
+    }
+    .img_item:nth-child(2n) .pic{
+        height: 307px;
+        overflow: hidden;
+    }
+    
+    /* -----民宿環境照片----- */
+    
+    /* -----民宿貓咪照片----- */
+    .cat{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .catimg{
+        max-width: 1200px;  
+        display: flex;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .catimg_item .pic img{
+        width: 100%;
+        font-size: 0;
+    }
+    .catimg_item{
+        width: 33.333333%;
+        font-size: 20px;
+        color: #944b1f;
+        text-align: center;
+    }
+    
+    /* -----民宿貓咪照片----- */
+}
+@media screen and (min-width: 1200px) {
+    
+    /* -----幻燈片----- */
+    
+    .slideshow{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .slideshow img{
+        width: 100%;
+    }
+    
+    /* -----幻燈片----- */
+    
+    /* -----客房介紹----- */
+    
+    .roomtxt{
+        font-size: 24px;
+        text-align: center;
+    }
+    .roomtxt .txt {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .roomtxt .txt a{
+        text-decoration: none;
+        color: black;
+    }
+    .room{
+        max-width: calc(1200px - 60px);
+        display: flex;
+        flex-wrap: nowrap;
+        margin: auto;
+    }
+    .room_item{
+        margin: 10px;
+        width: 33.33333%;
+        background-color: #dec6ba;
+        text-align: center;
+        font-size: 20px;
+        color: #944b1f;
+    }
+    .room_item img{
+        width: 100%;
+    }
+    /* -----客房介紹----- */
+    
+    /* -----地理位置----- */
+    
+    .maptxt{
+        font-size: 24px;
+        text-align: center;
+    }
+    .maptxt .txt{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .maptxt .txt a{
+        text-decoration: none;
+        color: black;
+    }
+    .map{
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: auto;
+    }
+    .mapimg{
+        margin: 10px;
+    }
+    .mapinfo{
+        margin: 10px;
+        margin-left: 54px;
+        color: #944b1f;
+        font-size: 28px;
+    }
+    
+    /* -----地理位置----- */
+    
+    /* -----民宿環境照片----- */
+    .surround{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .surroundimg{
+        max-width: 1200px;
+        display: flex;
+        margin: auto;
+    }
+    .surroundimg .img_item img{
+        width: 100%;
+    }
+    .surroundimg .img_item{
+        width: 33.33333%;
+        text-align: center;
+        color: #944b1f;
+        font-size: 20px;
+    }
+    .img_item:nth-child(2n) .pic{
+        height: 480px;
+        overflow: hidden;
+    }
+    
+    /* -----民宿環境照片----- */
+    
+    /* -----民宿貓咪照片----- */
+    .cat{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .catimg{
+        max-width: 1200px;  
+        display: flex;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .catimg_item .pic{
+        width: 400px;
+        height: 280px;
+        overflow: hidden;
+    } 
+    .catimg_item img{
+        width: 100%;
+        font-size: 0;
+    }
+    .catimg_item{
+        font-size: 20px;
+        color: #944b1f;
+        text-align: center;
+    }
+    
+    /* -----民宿貓咪照片----- */
+    
+    
+    
+}

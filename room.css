@@ -1,0 +1,120 @@
+/* -----客房介紹----- */
+.room{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+.roomimg{
+    width: 100%;
+}
+.roomtxt{
+    padding: 30px;
+    color: #944b1f;
+    font-size: 22px;
+}
+
+.notice{
+    max-width: 100%;
+    background-color: #dec6ba;
+    margin: auto;
+    border-radius: 50px;
+}
+.noticetxt{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.txt{
+    font-size: 20px;
+    color: black;
+    padding: 30px 60px;
+}
+
+@media screen and (min-width:768px) {
+    /* -----客房介紹----- */
+.room{
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+.roomimg{
+    
+    padding: 30px;
+}
+.roomtxt{
+    margin: 10px;
+    padding: 30px;
+    color: #944b1f;
+    font-size: 22px;
+}
+
+.notice{
+    max-width: 768px;
+    background-color: #dec6ba;
+    margin: auto;
+    border-radius: 50px;
+}
+.noticetxt{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.txt{
+    font-size: 20px;
+    color: black;
+    padding: 30px 240px;
+}
+}
+
+@media screen and (min-width:1200px) {
+    
+
+/* -----客房介紹----- */
+.room{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+.roomimg{
+    
+    padding: 30px;
+}
+.roomtxt{
+    margin: 10px;
+    padding: 30px;
+    color: #944b1f;
+    font-size: 22px;
+}
+
+.notice{
+    max-width: 1200px;
+    background-color: #dec6ba;
+    margin: auto;
+    border-radius: 50px;
+}
+.noticetxt{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.txt{
+    font-size: 20px;
+    color: black;
+    padding: 30px 240px;
+}
+}
+/* -----客房介紹----- */
+
+

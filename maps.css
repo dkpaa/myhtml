@@ -1,0 +1,139 @@
+    /* -----地圖----- */
+    .map{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap ;
+        margin: auto;
+    }
+    .map .mapimg{
+        width: 100%;
+        padding: 10px;
+    }
+    .mapimg img{
+        width: 100%;
+    }
+    .maptxt{
+        width: cacl(50% - 74px);
+        margin: 10px;
+        margin-left: 54px;
+        color: #944b1f;
+        font-size: 28px;
+    }
+    
+    /* -----地圖----- */
+    
+    /* -----景點介紹----- */
+    .spot{
+        max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    .spotimg{
+        margin: 10px;
+        width: calc(100% - 20px );
+        text-align: center;
+        background-color: #dec6ba;
+    }
+    .spotimg img{
+        width: 100%;
+        height: 253px;
+        overflow: hidden;
+    }
+
+@media screen and (min-width:768px) {
+    /* -----地圖----- */
+.map{
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: auto;
+}
+.map .mapimg{
+    width: 100%;
+    padding: 10px;
+}
+.mapimg img{
+    width: 100%;
+}
+.maptxt{
+    width: cacl(50% - 74px);
+    margin: 10px;
+    margin-left: 54px;
+    color: #944b1f;
+    font-size: 28px;
+}
+
+/* -----地圖----- */
+
+/* -----景點介紹----- */
+.spot{
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.spotimg{
+    margin: 10px;
+    width: calc(50% - 20px );
+    text-align: center;
+    background-color: #dec6ba;
+}
+.spotimg img{
+    width: 100%;
+    height: 253px;
+    overflow: hidden;
+}
+}
+/* -----景點介紹----- */
+
+
+@media screen and (min-width:1200px) {
+    
+
+/* -----地圖----- */
+.map{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+.map .mapimg{
+    width: calc(50% - 20px);
+    padding: 10px;
+}
+.mapimg img{
+    width: 100%;
+}
+.maptxt{
+    width: cacl(50% - 74px);
+    margin: 10px;
+    margin-left: 54px;
+    color: #944b1f;
+    font-size: 28px;
+}
+
+/* -----地圖----- */
+
+/* -----景點介紹----- */
+.spot{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.spotimg{
+    margin: 10px;
+    width: calc(33.333333% - 20px );
+    text-align: center;
+    background-color: #dec6ba;
+}
+.spotimg img{
+    width: 100%;
+    height: 253px;
+    overflow: hidden;
+}
+}
+/* -----景點介紹----- */
+

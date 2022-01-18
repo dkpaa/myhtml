@@ -1,0 +1,162 @@
+/* -----訂房----- */
+.reserve{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+.reserveblock{
+    background-color: #dec6ba;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.input{
+    margin: 15px;
+}
+.reservetxt{
+    width: 50%;
+    padding: 20px;
+    font-size: 22px;
+    color: #944b1f;
+}
+
+/* -----訂房----- */
+
+/* -----注意事項----- */
+.noticetxt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: black
+}
+.notice{
+    max-width: 100%;
+    display: flex;
+    font-size: 20px;
+    color: #944b1f;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    /* -----訂房----- */
+.reserve{
+    max-width: 768px;
+    display: flex;
+    margin: auto;
+}
+.reserveblock{
+    background-color: #dec6ba;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.input{
+    margin: 15px;
+}
+.reservetxt{
+    width: 50%;
+    padding: 20px;
+    font-size: 22px;
+    color: #944b1f;
+}
+
+/* -----訂房----- */
+
+/* -----注意事項----- */
+.noticetxt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: black
+}
+.notice{
+    max-width: 768px;
+    display: flex;
+    font-size: 20px;
+    color: #944b1f;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.notice01{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.notice02{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.notice03{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+}
+
+
+@media screen and (min-width:1200px) {
+    /* -----訂房----- */
+.reserve{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.reserveblock{
+    background-color: #dec6ba;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.input{
+    margin: 15px;
+}
+.reservetxt{
+    width: 50%;
+    padding: 20px;
+    font-size: 22px;
+    color: #944b1f;
+}
+
+/* -----訂房----- */
+
+/* -----注意事項----- */
+.noticetxt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-align: center;
+    color: black
+}
+.notice{
+    max-width: 1200px;
+    display: flex;
+    font-size: 20px;
+    color: #944b1f;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.notice01{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.notice02{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+.notice03{
+    width: 400px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+}
+
