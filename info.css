@@ -33,10 +33,12 @@
 .notice{
     max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     color: #944b1f;
     margin: auto;
     padding-bottom: 40px;
+    line-height: 1.5;
 }
 
 
