@@ -144,21 +144,8 @@
     margin: auto;
     padding-bottom: 40px;
 }
-.notice01{
-    width: 400px;
-    margin: 10px;
-    margin-left: 50px;
+.noticeinfo{
+    width: calc(100% / 3);
 }
-.notice02{
-    width: 400px;
-    margin: 10px;
-    margin-left: 50px;
-}
-.notice03{
-    width: 400px;
-    margin: 10px;
-    margin-left: 50px;
-}
-
 }
 
